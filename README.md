@@ -1,6 +1,10 @@
 midnight/package-cohesion
 =========================
-This script checks how cohesive your Composer package is. It shows you file dependency clusters. If you've got a single cluster, your all good. Your package is very cohesive. If you've got one big cluster and several small ones, you should be fine. If you've got two or more larger clusters, you probably want to split your package into several smaller packages.
+This script checks how cohesive your Composer package is, i.e., your file dependency clusters.
+
+If you've got a single cluster, you're all good, your package is very cohesive.
+If you've got one big cluster and several small ones, you should be fine.
+If you've got 2 or more larger clusters, you probably want to split your package into several smaller packages.
 
 Inspired by the chapter on modules in Uncle Bob's "Clean Architecture".
 
